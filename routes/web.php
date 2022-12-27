@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/photo-studio', function () {
+    return view('photo-studio');
+});
+
+Route::get('/photo-print', function () {
+    return view('photo-print');
+});
+
+Route::get('/detail-produk', function () {
+    return view('detail-produk');
+});
