@@ -1,0 +1,10 @@
+.container-body {
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}

@@ -31,7 +31,7 @@
                     > Harga tertera adalah harga per orang <br>
                     > Berlaku mulai 5 orang <br>
                     > Paket tidak berlaku untuk photo keluarga</p>
-                <a href=""><button type="submit" class="btn1 btn-primary">Book Now</button></a>
+                <a href="{{ url('/booking') }}"><button type="submit" class="btn1 btn-primary">Book Now</button></a>
             </div>
         </div>
 

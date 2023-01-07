@@ -32,3 +32,23 @@ Route::get('/photo-print', function () {
 Route::get('/detail-produk', function () {
     return view('detail-produk');
 });
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+
+Route::get('/pesanan', function () {
+    return view('pesanan');
+});
+
+Route::get('/booking', function () {
+    return view('booking-form');
+});
+
+Route::get('/admin', function () {
+    return view('dashboard-admin');
+});
